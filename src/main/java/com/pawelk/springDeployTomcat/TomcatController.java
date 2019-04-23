@@ -10,4 +10,9 @@ public class TomcatController {
     public String home(){
         return "Hello, here is sample app deploy on tomcat serve 8.5";
     }
+
+    @RequestMapping("/jenkins")
+    public String jenkins(){
+        return "Hello, jenkins";
+    }
 }
